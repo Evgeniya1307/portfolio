@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    justify-content: center;
+    padding: 5px;
+}
+
+.icon {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.icon:hover * {
+    fill: #d2a344;
+}

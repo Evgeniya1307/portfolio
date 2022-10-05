@@ -1,0 +1,53 @@
+.header {
+    font-family: Bebas Neue;
+    font-size: 1.5em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #000000;
+    text-transform: uppercase;
+
+}
+@media screen and (max-width: 460px) {
+    .header {
+        font-size: 1.2em;
+    }
+}
+
+.title {
+    color: #ffffff;
+}
+
+.headerBlock {
+    margin-right: 5%;
+    width: 50px;
+    height: 100%;
+}
+
+.orange {
+    background-color: #FFAA00;
+}
+
+.green {
+    background-color: #27B016;
+}
+
+.iconsBox {
+    position: absolute;
+    right: 5%;
+}
+@media screen and (max-width: 647px) {
+    .iconsBox {
+        display: none;
+    }
+}
+
+.icon {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.icon:hover * {
+    fill: #ffaa00;
+}

@@ -1,0 +1,20 @@
+.skills {
+    text-align: center;
+}
+
+.skillContainer {
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 0.7em;
+    margin: 3px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.title {
+    font-weight: normal;
+    font-size: 1.2em;
+}

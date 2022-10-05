@@ -1,0 +1,16 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    /*border: 1px solid;*/
+}
+
+.navigationLink {
+    color: #000000;
+}
+
+.navigationLink:hover, .navigationLink:active {
+    color: #FFAA00;
+    cursor: pointer;
+}

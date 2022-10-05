@@ -1,0 +1,145 @@
+.mainPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    /*background-color: #e7c0c0;*/
+}
+
+.main {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*border: 1px solid;*/
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+.mainContainer {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*border: 1px solid green;*/
+}
+
+.presentation {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /*background-color: #cecece;*/
+    /*border: 1px solid red;*/
+}
+.title  {
+    font-size: 1.5em;
+    margin-top: 5%;
+    /*text-align: center;*/
+}
+
+.name {
+    margin: 0;
+    margin-bottom: 2%;
+    padding: 0;
+    font-weight: normal;
+    font-size: 1.2em;
+    margin-top: 5%;
+}
+.description {
+    margin-bottom: 10%;
+    font-size: 1.2em;
+}
+.photo {
+    width: 50%;
+}
+.photoContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.react {
+    position: absolute;
+    left: 10%;
+    top: 5%
+}
+
+.typescript {
+    position: absolute;
+    left: 65%;
+    top: 55%;
+}
+
+.redux {
+    position: absolute;
+    left: 10%;
+    top: 80%;
+}
+
+.image {
+    width: 100%;
+}
+.imageContainer {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 460px) {
+    .navigation {
+        width: 80%;
+        margin: 5% auto 0 auto;
+        font-size: 1.1em;
+        justify-content: space-around;
+        padding: 0;
+    }
+    .photoContainer {
+        font-size: 1.1em;
+    }
+    .redux {
+        left: 15%;
+    }
+    .react {
+        left: 15%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .imageContainer {
+        width: 50%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .mainContainer {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 720px) {
+    .imageContainer {
+        width: 80%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        flex-direction: column;
+    }
+    .mainContainer {
+        flex-direction: column;
+    }
+}
+/*@media screen and (max-width: 1024px) {*/
+/*    .container {*/
+/*        justify-content: center;*/
+/*    }*/
+/*}*/
