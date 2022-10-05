@@ -1,8 +1,7 @@
 import React from 'react';
 import style from './Main.module.css'
 import styleContainer from '../common/Container.module.css'
-import fox from '../images/fox.png'
-import portrait from '../images/portrait.jpg'
+import react from '../images/react.png'
 import Header from "../header/Header";
 import Navigation from "../navigation/Navigation";
 import Skills from "../skills/Skills";
@@ -30,7 +29,7 @@ const Main = () => {
                         <Skills/>
                     </div>
                     <div className={style.imageContainer}>
-                        <img src={fox} className={style.image}/>
+                        <img src={react} className={style.image}/>
                     </div>
                 </div>
             </div>

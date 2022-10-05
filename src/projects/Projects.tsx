@@ -2,46 +2,29 @@ import React from 'react';
 import style from './Projects.module.css'
 import styleContainer from '../common/Container.module.css'
 import Project from "./project/Project";
-import rm_background from '../images/rm-thumb.jpeg'
-import todo_background from '../images/todo-thumb.png'
-import social_background from '../images/social-thumb.png'
-import memberberries_background from '../images/member-thumb.png'
-import cards_background from '../images/cards-thumb.png'
-import chat_background from '../images/chat-thumb.png'
+import pizza from '../images/pizza.jpg';
+import social from '../images/social.png'
+import burger from '../images/burger.jpg'
 import Header from "../header/Header";
 
 const Projects = () => {
     const projects = [
         {
-            title: 'Memberberries - Social Media',
-            link: 'https://gvinp.github.io/memberberries/',
-            image: memberberries_background
+            title: 'Social network',
+            link: 'https://github.com/Evgeniya1307/Social-network',
+            image: social
         },
         {
-            title: 'Rick and Morty database',
-            link: 'https://gvinp.github.io/rick-and-morty-database/',
-            image: rm_background
+            title: ' React-Pizza',
+            link: 'https://github.com/Evgeniya1307/-React-Pizza-',
+            image:pizza
         },
         {
-            title: 'Educational cards',
-            link: 'https://gvinp.github.io/friday-project/',
-            image: cards_background
+            title: ' Restaurant-burger',
+            link: 'https://github.com/Evgeniya1307/-Restaurant-burger',
+            image: burger
         },
-        {
-            title: 'Hashtag - Social Network',
-            link: 'https://gvinp.github.io/hashtag-social-network/',
-            image: social_background
-        },
-        {
-            title: 'Todo list',
-            link: 'https://gvinp.github.io/todolist/',
-            image: todo_background
-        },
-        {
-            title: 'Realtime chat',
-            link: 'https://62f48af07f22616cf2964c1e--clever-hummingbird-82c24f.netlify.app/',
-            image: chat_background
-        },
+       
     ]
     return (
         <div id={'Projects'}>
