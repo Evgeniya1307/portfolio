@@ -28,7 +28,7 @@ const Projects = () => {
     ]
     return (
         <div id={'Projects'}>
-            <Header color={'#27B016'} text={' / projects'} displayIcons={'none'}/>
+            <Header color={'#41e163'} text={' / projects'} displayIcons={'none'}/>
             <div className={`${style.projects} ${styleContainer.page}`}>
                 <div className={`${styleContainer.container} ${styleContainer.listContainer}`}>
                     <h2>My projects</h2>
