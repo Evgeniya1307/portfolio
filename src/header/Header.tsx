@@ -24,7 +24,7 @@ const Header = (props: HeaderPropsType) => {
                 <a href={'https://t.me/zhenechka_2020'}>
                     <Tg className={style.icon}/>
                 </a>
-                <a href={'https://github.com/Evgeniya1307'}> {/*добавила сети*/}
+                <a href={'https://github.com/Evgeniya1307'}> 
                     <Github className={style.icon}/>
                 </a>
             </div>
